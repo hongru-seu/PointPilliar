@@ -109,3 +109,23 @@ python train.py \
  
  ### [Kitti evalution of trainning set](#contents)
  
+val set (len_dataset 3769)
+
+        Easy   Mod    Hard
+Car AP@0.70, 0.70, 0.70:
+bbox AP:90.66, 88.81, 86.74
+bev  AP:89.87, 86.74, 83.91
+3d   AP:85.95, 76.30, 69.63
+aos  AP:90.62, 88.49, 86.08
+
+        Easy   Mod    Hard
+Cyclist AP@0.50, 0.50, 0.50:
+bbox AP:84.64, 65.44, 62.60
+bev  AP:82.76, 62.55, 59.06
+3d   AP:77.64, 59.09, 54.52
+aos  AP:84.04, 64.51, 61.75
+Pedestrian AP@0.50, 0.50, 0.50:
+bbox AP:66.41, 64.34, 60.69
+bev  AP:72.28, 66.54, 61.98
+3d   AP:66.80, 60.08, 54.70
+aos  AP:41.43, 41.08, 39.00
